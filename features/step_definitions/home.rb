@@ -1,0 +1,24 @@
+Dado('que faça login com {string} e {string}') do |string, string2|
+    @login_page = Login.new
+    @login_page.load
+    @login_page.insert_login(string, string2)
+    @home_page = Home.new
+end
+
+#Verificar produtos existentes
+Quando('buscar por produto {string} e adicionar ao carrinho') do |string|
+    @home_page.search_product(string)
+end
+  
+Então('devo ver a lista de compras') do
+    @carrinho_page = Carrinho.new
+end
+
+#Verificar produto inexistente
+Quando('buscar por produto {string}') do |string|
+    @home_page.search_product(string)
+end
+  
+Então('deve apresentar a mensagem nenhum produto foi encontrado') do
+    expect(@home_page).to have_content "Nenhum produto foi encontrado"
+end 

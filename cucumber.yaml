@@ -1,0 +1,10 @@
+default: -p prd -p chrome
+
+# Environments
+prd: ENVIRONMENT="prd"
+
+#Browsers
+chrome: BROWSER="chrome"
+
+# Visual Mode
+headless: HEADLESS="true"
