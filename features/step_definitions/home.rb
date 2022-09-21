@@ -1,7 +1,9 @@
 Dado('que faça login com {string} e {string}') do |string, string2|
     @login_page = Login.new
     @login_page.load
-    @login_page.insert_login(string, string2)
+    email = Factory::Static.static_data(string)
+    password = Factory::Static.static_data(string2)
+    @login_page.insert_login(email, password)
     @home_page = Home.new
 end
 

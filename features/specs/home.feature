@@ -7,7 +7,7 @@ Funcionalidade: Home
     PARA poder verificar os produtos
       
     Contexto:Acessar a home
-        Dado que faça login com "barcelos@teste.com" e "1234"
+        Dado que faça login com "email" e "password"
     
     @search_product
     Cenário: Buscar por produto existente

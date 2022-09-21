@@ -10,7 +10,7 @@ Funcionalidade: Cadastro
 
     @registration_sucess
     Cenário: Cadastrar com sucesso
-        Quando realizar cadastro com os campos "Barcelos" "barcelos@teste.com" e "1234"
+        Quando realizar cadastro com os campos "name" "email" e "password"
         Então deverá cadastrar com sucesso e ir para home
     
     @registration_not_sucess
@@ -18,8 +18,8 @@ Funcionalidade: Cadastro
         Quando realizar cadastro informando os campos "<nome>" "<email>" e "<senha>"
         Então a mensagem é exibida "<msg>"
         Exemplos:
-        | nome    | email              | senha | msg                               |
-        |         | barcelos@teste.com | 1234  | Nome não pode ficar em branco     |
-        |Barcelos |                    | 1234  | Email é obrigatório               |
-        |Barcelos | barcelos@teste.com |       | Password não pode ficar em branco |
-        |Barcelos | barcelos@teste.com | 1234  | Este email já está sendo usado    |
+        | nome    | email              | password  | msg                               |
+        |         | email              | password  | Nome não pode ficar em branco     |
+        |name     |                    | password  | Email é obrigatório               |
+        |name     | email              |           | Password não pode ficar em branco |
+        |name     | email              | password  | Este email já está sendo usado    |
