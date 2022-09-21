@@ -42,7 +42,7 @@ Abra o CMDER na pasta do projeto e faça a instalação das dependencias com o c
 Para a execução automatizada dos testes abra o CMDER na pasta do projeto e rode:
 
 <pre>
-<span style="font-weight: 400">bundle exec cucumber -p default r</span>
+<span style="font-weight: 400">bundle exec cucumber -p default</span>
 </pre>
 
 <h2>Deployment</h2>
