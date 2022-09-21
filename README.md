@@ -14,6 +14,7 @@ Tecnologias e ferramentas ultilzadas no projetos:</br>
     <li><a href="https://cmder.app/">CMDER</a></li>
     <li><a href="https://git-scm.com/">GIT</a></li>
     <li><a href="https://code.visualstudio.com/">VSCODE</a></li>
+    <li><a href="https://chromedriver.chromium.org/downloads">CHROME DRIVER</a></li>
   </ul>
 
 Instalação compativel com Windows

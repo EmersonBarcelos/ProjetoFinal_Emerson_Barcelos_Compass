@@ -1,5 +1,6 @@
 #language: pt
 
+@registration
 Funcionalidade: Cadastro
     COMO um usuário do sistema
     QUERO poder fazer um novo cadastro 

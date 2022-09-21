@@ -7,7 +7,6 @@ Quando('eu fizer o login com {string} e {string}') do |string, string2|
     email = Factory::Static.static_data(string)
     password = Factory::Static.static_data(string2)
     @login_page.insert_login(email, password)
-    # @login_page.insert_login(string, string2)
 end
   
 Então('devo logar com sucesso para área da home') do
