@@ -42,7 +42,7 @@ Abra o CMDER na pasta do projeto e faça a instalação das dependencias com o c
 Para a execução automatizada dos testes abra o CMDER na pasta do projeto e rode:
 
 <pre>
-<span style="font-weight: 400">bundle exec rspec specs\calculadora_spec.rb</span>
+<span style="font-weight: 400">bundle exec cucumber -p default r</span>
 </pre>
 
 <h2>Deployment</h2>
@@ -54,7 +54,7 @@ Para atualização do projeto e correção de bugs:
 <span style="font-weight: 400">git commit -m "Correção <correção feita> "</span>
 </pre>
 <pre>
-<span style="font-weight: 400">git push origin https://github.com/EmersonBarcelos/RealityStone_Emerson_Barcelos_Compass</span>
+<span style="font-weight: 400">git push origin https://github.com/EmersonBarcelos/ProjetoFinal_Emerson_Barcelos_Compass</span>
 </pre>
 
 </ul>
@@ -64,7 +64,7 @@ Para atualização do projeto e correção de bugs:
 Para contruibuições faça o commit na brach "develop" com a descrição da atualização para analise.
 
 <h3>Autor</h3>
-Emerson Barcelos - 30/08/22  - https://github.com/EmersonBarcelos/RealityStone_Emerson_Barcelos_Compass
+Emerson Barcelos - 06/09/22  - https://github.com/EmersonBarcelos/ProjetoFinal_Emerson_Barcelos_Compass
 
 <h3>License</h3>
 
@@ -76,7 +76,9 @@ Os autores dos software não provêm garantias.
 <h3>Créditos</h3>
 fontes ultilizadas:
 <ul>
-  <li>https://www.ruby-lang.org/pt/documentation/</li>
-  <li>https://rspec.info/documentation/</li>
+  <li>https://github.com/site-prism/site_prism</li>
+  <li>https://github.com/cucumber/cucumber-ruby</li>
+  <li>https://github.com/teamcapybara/capybara</li>
 </ul>
+Agradecimentos ao <a href="https://github.com/teamcapybara/capybara">Willian Soares da Silva</a>
 
