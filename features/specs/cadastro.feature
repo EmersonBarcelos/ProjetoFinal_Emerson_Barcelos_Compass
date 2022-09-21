@@ -22,4 +22,3 @@ Funcionalidade: Cadastro
         |         | email              | password  | Nome não pode ficar em branco     |
         |name     |                    | password  | Email é obrigatório               |
         |name     | email              |           | Password não pode ficar em branco |
-        |name     | email              | password  | Este email já está sendo usado    |

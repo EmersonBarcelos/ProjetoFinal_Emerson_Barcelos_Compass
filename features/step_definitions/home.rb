@@ -9,7 +9,8 @@ end
 
 #Verificar produtos existentes
 Quando('buscar por produto {string} e adicionar ao carrinho') do |string|
-    @home_page.search_product(string)
+    produto = Factory::Static.static_data(string)
+    @home_page.search_product(produto)
 end
   
 Então('devo ver a lista de compras') do
@@ -18,7 +19,8 @@ end
 
 #Verificar produto inexistente
 Quando('buscar por produto {string}') do |string|
-    @home_page.search_product(string)
+    inexistente = Factory::Static.static_data(string)
+    @home_page.search_product(inexistente)
 end
   
 Então('deve apresentar a mensagem nenhum produto foi encontrado') do

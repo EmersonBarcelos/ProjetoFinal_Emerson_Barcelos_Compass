@@ -1,5 +1,7 @@
-default: -p prd -p chrome
+default: --format pretty -p prd -p chrome -p html
 
+# Reporters
+html: --format html --out=reports/report.html
 # Environments
 prd: ENVIRONMENT="prd"
 

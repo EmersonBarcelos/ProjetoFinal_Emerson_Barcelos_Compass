@@ -2,7 +2,8 @@
 Testes aumomatizados para o front-end do site ServeRest
 
 <h2>Apresentação</h2>
-Na automação é feito os desdes de usuário de sistema, cadastro de usuários, login, pesquisa de itens e adição de itens ao carrinho de compras
+Na automação é feito os desdes de usuário de sistema, cadastro de usuários, login, pesquisa de itens e adição de itens ao carrinho de compras,
+com a funcionalidade de Bug Reports
 
 
 <h2>Pré requisitos</h2>

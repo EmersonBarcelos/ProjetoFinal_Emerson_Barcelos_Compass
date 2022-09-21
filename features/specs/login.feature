@@ -21,6 +21,5 @@ Funcionalidade: Login
          Exemplos:
          | email                      | senha           |  msg                               |
          | email                      | password_invalid|  Email e/ou senha inválidos        |
-         | email                      | password        |  Email e/ou senha inválidos        |
          |                            | password        |  Email é obrigatório               |
          | email                      |                 |  Password não pode ficar em branco |

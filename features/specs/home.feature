@@ -11,7 +11,7 @@ Funcionalidade: Home
     
     @search_product
     Cenário: Buscar por produto existente
-        Quando buscar por produto "logitech" e adicionar ao carrinho
+        Quando buscar por produto "produto" e adicionar ao carrinho
         Então devo ver a lista de compras
 
     Cenário: Buscar por produto inexistente
