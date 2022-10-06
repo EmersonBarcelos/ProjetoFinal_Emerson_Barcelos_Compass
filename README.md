@@ -14,7 +14,10 @@ Tecnologias e ferramentas ultilzadas no projetos:</br>
     <li><a href="https://cmder.app/">CMDER</a></li>
     <li><a href="https://git-scm.com/">GIT</a></li>
     <li><a href="https://code.visualstudio.com/">VSCODE</a></li>
+    <li><a href="https://chromedriver.chromium.org/downloads">CHROME DRIVER</a></li>
   </ul>
+
+Obs:O chromedriver.exe deve ser colocado na pasta do ruby/bin
 
 Instalação compativel com Windows
 
@@ -81,5 +84,4 @@ fontes ultilizadas:
   <li>https://github.com/cucumber/cucumber-ruby</li>
   <li>https://github.com/teamcapybara/capybara</li>
 </ul>
-Agradecimentos ao <a href="https://github.com/teamcapybara/capybara">Willian Soares da Silva</a>
 
