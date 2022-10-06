@@ -22,3 +22,8 @@ Funcionalidade: Cadastro
         |         | email              | password  | Nome não pode ficar em branco     |
         |name     |                    | password  | Email é obrigatório               |
         |name     | email              |           | Password não pode ficar em branco |
+
+    @registration_adm
+    Cenário: Cadastrar conta ADM
+    Quando realizar cadastro de adm com os campos "name" "email_adm" e "password"
+    Então deverá cadastrar com sucesso e ir para home de administrador
