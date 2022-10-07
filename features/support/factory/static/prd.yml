@@ -1,6 +1,7 @@
 email: 'barcelos@teste.com'
+email_adm: 'barcelos_adm@teste.com'
 password: '1234'
 password_invalid: 'uhuhihui'
 name: 'Barcelos'
-produto: 'logitech'
+produto: 'Logitech'
 inexistente: 'inexistente'
